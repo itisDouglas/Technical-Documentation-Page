@@ -39,24 +39,84 @@
         <section class="main-section" id="Variables">
             <header>
                 <h3>Variables</h3>
+                <p>Python is a simple language. Notice that there are no semicolons required. Instead, Python depends on spacing and indentation.</p>
+                <p>The next few examples demonstrate how to declare variables.</p>
+                <code>>>> x = 4<br>
+                    >>> y = 7<br>
+                    >>> x + y<br>
+                    11</code>
+                <p>In Python a variables type doesn't need to be specified, the interpreter already infers the type.</p>
             </header>
         </section>
 
         <section class="main-section" id="Constants">
             <header>
                 <h3>Constants</h3>
+                <p>There is no special way to declar constants in Python. There is only one rule and that is to capitalize your constant's name. See the below example:</p>
+                <code>>>> SALES_TAX = 7.5<br>
+                    >>> print(SALES_TAX)<br>
+                    7.5</code>
             </header>
         </section>
 
         <section class="main-section" id="Data_Types">
             <header>
                 <h3>Data Types</h3>
+                <p>The following the six standard data types in Python:</p>
+                <ul>
+                    <li>Integer</li>
+                    <li>Float</li>
+                    <li>String</li>
+                    <li>List</li>
+                    <li>Tuple</li>
+                    <li>Set</li>
+                    <li>Dictionary</li>
+                </ul>
+                <p>The following are examples of each of these data types:</p>
+                <code>>>> #Integer<br>
+                    >>> a = 5<br>
+                    >>> print(a)<br>
+                    5</code><br><br>
+                <code>>>> #Float<br>
+                    >>> b = 5.1<br>
+                    >>> print(b)<br>
+                    5.1</code><br><br>
+                <code>>>> #String<br>
+                    >>> word = "Hello!"<br>
+                    >>> print(word)<br>
+                    Hello!</code><br><br>
+                <code>>>> #List<br>
+                    >>> List = [2, 4, 5, "Hello again!"]<br>>>> print(List[3])<br>
+                    Hello again!</code><br><br>
+                <code>>>> #Tuple <br>>>> aTuple = (1, 2, 3, "Python")<br>
+                    >>> print(aTuple[3])<br>
+                    Python</code><br><br>
+                    <code>>>> #Set<br>>>> aSet = {1,2,3,"More Python"}<br>
+                        >>> print(aSet)<br>
+                        {1, 2, 3, 'More Python'}</code><br><br>
+                    <code>>>> #Dictionary<br>
+                        >>> Dict = {1: "hello", 2:"hello, again", 3: "Hi"}<br>
+                        >>> print(Dict)
+                        {1: 'hello', 2: 'hello, again', 3: 'Hi'}<br>
+                        >>> print(Dict[2])
+                        hello, again</code>
             </header>
         </section>
 
         <section class="main-section" id="If...else_statement">
             <header>
                 <h3>If...else Statement</h3>
+                <p>In python the if statement is written with "if" keyword followed by the variables you want to evaluate and the logical conditions; you finish the if statement with a colon. </p>
+                <p>After the colon, you indent, letting the Python interpreter know that whatever comes after the colon is what should happen after the condition has been evaluated.</p>
+                <p>When you need an else statement, simply indent to the line below and use the keyword <code>else</code> followed by a colon. After the colon, simply write whatever will happen if the initial evaluation fails. See the below example:</p>
+                <code>>>> #If Else<br>
+                    >>> a = 11<br>
+                    >>> b = 100<br>
+                    >>> if b > a:
+                        print("b is greater than a")
+                    else: print("a is greater than b")<br>
+                    
+                    b is greater than a</code>
             </header>
         </section>
 
