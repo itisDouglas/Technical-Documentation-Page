@@ -10,12 +10,12 @@
     <body>
         <!--put navbar and all repeatable content in header tag outside of main tag-->
         <nav id="navbar">
-            <header>Python</header>
+            <header><h3>Python</h3></header>
             <ul>
                 <li><a class="nav-link" href="#Introduction_to_Python">Introduction to Python</a></li>
-                <li><a class="nav-link" href="#Hello_World">Hello World</a></li>
+                <li><a class="nav-link" href="#Hello_World!">Hello World!</a></li>
                 <li><a class="nav-link" href="#Variables">Variables</a></li>
-                <li><a class="nav-link" href="#Constants">Introduction to Python</a></li>
+                <li><a class="nav-link" href="#Constants">Constants</a></li>
                 <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
                 <li><a class="nav-link" href="#If...else_statement">If...else Statement</a></li>
                 <li><a class="nav-link" href="#While_Statement">While Statement</a></li>
@@ -23,10 +23,13 @@
                 <li><a class="nav-link" href="#Reference">Reference</a></li>
             </ul>
         </nav>
+      
         <main id="main-doc"><!--only document content, no navbar-->
-        <section class="main-section" id="Introduction_to_Python"></section>
-        <header>
-            <h3>Introduction to Python</h3>
+        <section class="main-section" id="Introduction_to_Python">
+          <header>
+          <h3>Introduction to Python</h3></header>
+          </section>
+        
             <p>
                 Python is simple to use, but it is a real programming language, offering much more structure and support for large programs than shell scripts or batch files can offer. On the other hand, Python also offers much more error checking than C, and, being a very-high-level language, it has high-level data types built in, such as flexible arrays and dictionaries. Because of its more general data types Python is applicable to a much larger problem domain than Awk or even Perl, yet many things are at least as easy in Python as in those languages.</p>
 
@@ -36,22 +39,21 @@
             </p>
 
             <p>By the way, the language is named after the BBC show “Monty Python’s Flying Circus” and has nothing to do with reptiles. Making references to Monty Python skits in documentation is not only allowed, it is encouraged!</p>
-        </header>
+        header
 
         <section class="main-section" id="Hello_World!">
             <header>
-                <h3>Hello World!</h3>
+              <h3>Hello World!</h3></header>
                 <p>To see what can be done with Python, or any programming language for that matter, printing out the words "Hello World!" is a tradition for most programmers venturing to new languages. Fortunately Python allows this to be done quickly. See the below code.</p>
                 <code>>>> print("Hello World!")
                     <br>Hello World!<br>>>>
                 </code>
                 <p>It is assumed the reader of this documentation has the latest version of Python installed and ready to go.</p>
-            </header>
         </section>
 
         <section class="main-section" id="Variables">
             <header>
-                <h3>Variables</h3>
+              <h3>Variables</h3></header>
                 <p>Python is a simple language. Notice that there are no semicolons required. Instead, Python depends on spacing and indentation.</p>
                 <p>The next few examples demonstrate how to declare variables.</p>
                 <code>>>> x = 4<br>
@@ -59,22 +61,20 @@
                     >>> x + y<br>
                     11</code>
                 <p>In Python a variables type doesn't need to be specified, the interpreter already infers the type.</p>
-            </header>
         </section>
 
         <section class="main-section" id="Constants">
             <header>
-                <h3>Constants</h3>
+              <h3>Constants</h3></header>
                 <p>There is no special way to declar constants in Python. There is only one rule and that is to capitalize your constant's name. See the below example:</p>
                 <code>>>> SALES_TAX = 7.5<br>
                     >>> print(SALES_TAX)<br>
                     7.5</code>
-            </header>
         </section>
 
         <section class="main-section" id="Data_Types">
             <header>
-                <h3>Data Types</h3>
+              <h3>Data Types</h3></header>
                 <p>The following the six standard data types in Python:</p>
                 <ul>
                     <li>Integer</li>
@@ -113,12 +113,11 @@
                         {1: 'hello', 2: 'hello, again', 3: 'Hi'}<br>
                         >>> print(Dict[2])
                         hello, again</code>
-            </header>
         </section>
 
         <section class="main-section" id="If...else_statement">
             <header>
-                <h3>If...else Statement</h3>
+              <h3>If...else Statement</h3></header>
                 <p>In python the if statement is written with "if" keyword followed by the variables you want to evaluate and the logical conditions; you finish the if statement with a colon. </p>
                 <p>After the colon, you indent, letting the Python interpreter know that whatever comes after the colon is what should happen after the condition has been evaluated.</p>
                 <p>When you need an else statement, simply indent to the line below and use the keyword <code>else</code> followed by a colon. After the colon, simply write whatever will happen if the initial evaluation fails. See the below example:</p>
@@ -130,11 +129,10 @@
                     else: print("a is greater than b")<br>
                     
                     b is greater than a</code>
-            </header>
         </section>
 
         <section class="main-section" id="While_Statement"><header>
-            <h3>While Statement</h3>
+          <h3>While Statement</h3></header>
             <p>One of the loop commands that can be accomplished with Python is the while loop. Similar in declaration to the if statement, the while loop iterates through a set of statements. See the below example:</p>
             <code>>>> #While Loop<br>
                 >>> i = 1<br>
@@ -148,11 +146,11 @@
                 3
                 4
                 5 </code>
-        </header></section>
+          </section>
 
         <section class="main-section" id="Function_Declarations">
             <header>
-                <h3>Function Declarations</h3>
+              <h3>Function Declarations</h3></header>
                 <p>A function is a block of code which only runs when it's called.</p>
                 <p>You can pass data, known as parameters, into a function.</p>
                 <p>A function can return data as a result.</p>
@@ -165,18 +163,14 @@
                     >>> #here, I am calling my function<br>
                     >>> my_function()<br>
                     hello from a function</code>
-            </header>
         </section>
 
         <section class="main-section" id="Reference">
             <header>
-                <h3>Reference</h3>
+              <h3>Reference</h3></header>
                 <!--include link to original python documentation-->
                 <p>For a more in depth view on Python, please visit their <a href="https://docs.python.org/3/tutorial/introduction.html">website</a>.</p>
-            </header>
         </section>
-
-        <section class="main-section"></section>
         </main>
     </body>
     </div>
