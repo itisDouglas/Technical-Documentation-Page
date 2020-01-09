@@ -9,7 +9,20 @@
     </head>
     <body>
         <!--put navbar and all repeatable content in header tag outside of main tag-->
-        <header><!--navbar here--></header>
+        <nav id="navbar">
+            <header>Python</header>
+            <ul>
+                <li><a class="nav-link" href="#Introduction_to_Python">Introduction to Python</a></li>
+                <li><a class="nav-link" href="#Hello_World">Hello World</a></li>
+                <li><a class="nav-link" href="#Variables">Variables</a></li>
+                <li><a class="nav-link" href="#Constants">Introduction to Python</a></li>
+                <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
+                <li><a class="nav-link" href="#If...else_statement">If...else Statement</a></li>
+                <li><a class="nav-link" href="#While_Statement">While Statement</a></li>
+                <li><a class="nav-link" href="#Function_Declarations">Function Declarations</a></li>
+                <li><a class="nav-link" href="#Reference">Reference</a></li>
+            </ul>
+        </nav>
         <main id="main-doc"><!--only document content, no navbar-->
         <section class="main-section" id="Introduction_to_Python"></section>
         <header>
@@ -122,11 +135,36 @@
 
         <section class="main-section" id="While_Statement"><header>
             <h3>While Statement</h3>
+            <p>One of the loop commands that can be accomplished with Python is the while loop. Similar in declaration to the if statement, the while loop iterates through a set of statements. See the below example:</p>
+            <code>>>> #While Loop<br>
+                >>> i = 1<br>
+                >>> while i < 6:
+                    print(i)
+                    i += 1
+                <br>
+                    
+                1
+                2
+                3
+                4
+                5 </code>
         </header></section>
 
         <section class="main-section" id="Function_Declarations">
             <header>
                 <h3>Function Declarations</h3>
+                <p>A function is a block of code which only runs when it's called.</p>
+                <p>You can pass data, known as parameters, into a function.</p>
+                <p>A function can return data as a result.</p>
+                <p>The following is an example on how you create and use a function.</p>
+                <code>>>> #Function<br>
+                    >>> def my_function():
+                        print("hello from a function")<br>
+                    
+                        
+                    >>> #here, I am calling my function<br>
+                    >>> my_function()<br>
+                    hello from a function</code>
             </header>
         </section>
 
@@ -134,6 +172,7 @@
             <header>
                 <h3>Reference</h3>
                 <!--include link to original python documentation-->
+                <p>For a more in depth view on Python, please visit their <a href="https://docs.python.org/3/tutorial/introduction.html">website</a>.</p>
             </header>
         </section>
 
